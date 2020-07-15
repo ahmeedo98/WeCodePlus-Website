@@ -1,0 +1,27 @@
+.pr__image__cover {
+  filter: none;
+  -webkit-filter: none;
+}
+
+#myVideo {
+  z-index: -999;
+  position: absolute;
+  overflow: hidden;
+}
+
+#features_section {
+  margin-top: 500px;
+}
+#pr_features {
+  border-top: none;
+  margin-top: none;
+}
+
+#services_section {
+  border-color: white;
+}
+@media only screen and (max-width: 1130px) {
+  #features_section {
+    margin-top: 200px;
+  }
+}
